@@ -1,5 +1,4 @@
 import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef } from '@angular/core';
-import { ConsoleReporter } from 'jasmine';
 
 @Component({
   selector: 'app-incrementador',
