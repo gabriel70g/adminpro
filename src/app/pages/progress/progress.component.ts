@@ -15,9 +15,6 @@ export class ProgressComponent implements OnInit {
   ngOnInit() {
   }
 
-  actualizar(event) {
 
-    console.log('Recibp:', event);
-  }
 
 }
