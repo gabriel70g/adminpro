@@ -19,7 +19,7 @@ export class PromesasComponent {
 
       const intervalo = setInterval(() => {
         contador += 1;
-        console.log(contador);
+        //console.log(contador);
 
         if (contador === 3) {
           resolve(true);

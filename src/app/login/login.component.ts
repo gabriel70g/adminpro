@@ -64,6 +64,8 @@ export class LoginComponent implements OnInit {
 
       let token = googleUser.getAuthResponse().id_token;
 
+      //console.log(token);
+
       this.usuarioservice.loginGoogle(token)
         .subscribe(resp => window.location.href = '#/dashboard');
 
